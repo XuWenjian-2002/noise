@@ -1,0 +1,82 @@
+# 自定义样式
+/* static/css/styles.css */
+
+/* 全局样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4,
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4 {
+  color: #1a73e8;
+}
+
+/* 应用警告样式 */
+div[data-testid="stNotification"] {
+  border-radius: 8px !important;
+}
+
+/* 侧边栏样式 */
+.sidebar .sidebar-content {
+    background-color: #e8f0fe;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* 标签页样式 */
+.stTabs [role="tab"] {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px 5px 0 0;
+    margin-right: 5px;
+    background-color: #e8f0fe;
+    transition: all 0.3s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+}
+
+/* 按钮样式 */
+.stButton>button {
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #0d5bb5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 指标卡片样式 */
+.stMetric {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+/* 图表容器 */
+.stPlotlyChart, .stDeckGlChart {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    padding: 10px;
+    background-color: white;
+}
+
+/* 警告和错误信息 */
+.stAlert {
+    border-radius: 8px;
+}

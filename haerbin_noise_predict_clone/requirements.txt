@@ -1,0 +1,18 @@
+# 应用依赖文件
+
+streamlit==1.47.1
+folium==0.20.0
+geopy==2.4.1
+pandas==2.0.3
+numpy==1.23.5
+tensorflow==2.12.0
+streamlit-folium==0.25.0
+chardet==4.0.0
+shap==0.47.2
+matplotlib==3.9.4
+joblib==1.4.2
+pytest==8.4.1
+scikit-learn==1.6.1
+seaborn==0.13.2
+setuptools==75.8.0
+plotly==6.0.1

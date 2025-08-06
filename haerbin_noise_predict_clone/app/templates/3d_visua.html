@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D可视化模块</title>
+</head>
+<body>
+<!-- app/templates/3d_visualization.html -->
+<div id="visualization-container">
+  <canvas id="noise-visualization"></canvas>
+</div>
+
+<script>
+  // 使用Three.js创建3D噪声分布模型
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, container.offsetWidth/container.offsetHeight, 0.1, 1000);
+
+  // 根据预测数据生成3D噪声云
+  function generateNoiseCloud(noiseData) {
+    // 具体实现...
+  }
+</script>
+
+</body>
+</html>
